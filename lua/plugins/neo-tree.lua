@@ -11,3 +11,8 @@ return {
     },
   },
 }
+
+-- Disable it instead
+-- return {
+--   { "nvim-neo-tree/neo-tree.nvim", enabled = false },
+-- }
