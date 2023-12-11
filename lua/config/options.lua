@@ -10,3 +10,5 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 vim.cmd.set("relativenumber")
+
+vim.opt.scrolloff = 8
