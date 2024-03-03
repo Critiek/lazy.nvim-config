@@ -44,3 +44,10 @@ require("lazy").setup({
     },
   },
 })
+
+local chadtree_settings = {
+  keymap = {
+    primary = { "l" },
+  },
+}
+vim.api.nvim_set_var("chadtree_settings", chadtree_settings)
