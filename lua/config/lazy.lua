@@ -51,3 +51,5 @@ local chadtree_settings = {
   },
 }
 vim.api.nvim_set_var("chadtree_settings", chadtree_settings)
+-- open  CHADtree on startup - needs work to not open when menu/startscreen is opened
+-- vim.api.nvim_create_autocmd("VimEnter", { command = "CHADopen" })
