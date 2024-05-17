@@ -11,4 +11,4 @@ vim.opt.termguicolors = true
 
 vim.cmd.set("relativenumber")
 
-vim.opt.scrolloff = 8
+vim.opt.scrolloff = 12

@@ -45,11 +45,11 @@ require("lazy").setup({
   },
 })
 
-local chadtree_settings = {
-  keymap = {
-    primary = { "l" },
-  },
-}
-vim.api.nvim_set_var("chadtree_settings", chadtree_settings)
+-- local chadtree_settings = {
+--   keymap = {
+--     primary = { "l" },
+--   },
+-- }
+-- vim.api.nvim_set_var("chadtree_settings", chadtree_settings)
 -- open  CHADtree on startup - needs work to not open when menu/startscreen is opened
 -- vim.api.nvim_create_autocmd("VimEnter", { command = "CHADopen" })
