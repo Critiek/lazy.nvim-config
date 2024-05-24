@@ -1,28 +1,20 @@
-# 💤 LazyVim
+# 💤 Crit's LazyVim Config
 
-A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
-Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
+My custom config of [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get learn more.
 
 ### Just clone into Neovim configuration directory
 
-**Windows (PowerShell 7+)**
+>Make sure to remove any old config and delete data directory:\
+**Windows:** ```~\appdata\local\nvim``` **and** ```~\appdata\local\nvim-data```\
+**Linux/MacOS:** ```~/.config/nvim``` **and** ```~/.local/share/nvim```
+
+**Windows**
 ```shell
-git clone https://github.com/Critiek/lazy.nvim-config $env:LOCALAPPDATA/nvim
+git clone https://github.com/Critiek/lazy.nvim-config ~\appdata\local\nvim
 ```
 
 **Linux/MacOS**
 ```shell
 git clone https://github.com/Critiek/lazy.nvim-config ~/.config/nvim
-```
-
-### One Command to install (DELETES OLD NEOVIM CONFIG!!!)
-
-**Windows (PowerShell 7+)**
-```shell
-rm -force -r $env:USERPROFILE\AppData\Local\nvim\ && rm -force -r $env:USERPROFILE\AppData\Local\nvim-data\ && git clone https://github.com/Critiek/lazy.nvim-config $env:LOCALAPPDATA/nvim
-```
-
-**Linux/MacOS**
-```shell
-sudo rm -rf ~/.config/nvim && sudo rm -rf ~/.local/share/nvim && git clone https://github.com/Critiek/lazy.nvim-config ~/.config/nvim
 ```
