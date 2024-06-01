@@ -13,6 +13,7 @@ require("lazy").setup({
         -- import any extras modules here
         -- { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
         { import = "lazyvim.plugins.extras.lang.markdown" },
+        { import = "lazyvim.plugins.extras.coding.luasnip" },
         -- import/override with your plugins
         { import = "plugins" },
     },
