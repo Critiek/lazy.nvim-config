@@ -1,3 +1,3 @@
 return {
-  { "nushell/tree-sitter-nu" },
+    { "nushell/tree-sitter-nu" },
 }
