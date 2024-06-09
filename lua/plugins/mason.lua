@@ -14,7 +14,7 @@ return {
                 "powershell-editor-services",
                 "pyright",
                 "rust-analyzer",
-                "typescript-language-server",
+                "vtsls",
                 "yaml-language-server",
             },
         },
