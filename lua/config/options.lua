@@ -19,4 +19,4 @@ vim.opt.expandtab = true -- Use spaces instead of tabs
 vim.opt.softtabstop = 4 -- Number of spaces that a <Tab> counts for while editing
 -- vim.opt.smartindent = false -- Disables automatic indentation
 
-vim.opt.clipboard = ""
+-- vim.opt.clipboard = ""
