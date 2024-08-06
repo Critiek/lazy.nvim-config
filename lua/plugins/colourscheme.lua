@@ -1,6 +1,9 @@
 return {
     {
         "catppuccin/nvim",
+        opts = {
+            no_italic = true,
+        },
     },
 
     { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
