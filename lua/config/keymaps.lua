@@ -5,5 +5,8 @@
 vim.keymap.set({ "n", "v" }, "<C-d>", "<C-d>zz")
 vim.keymap.set({ "n", "v" }, "<C-u>", "<C-u>zz")
 
+vim.keymap.set({ "n", "v" }, "x", '"_x')
+vim.keymap.set({ "n", "v" }, "X", '"_x')
+
 -- vim.keymap.set({ "n", "v" }, "<leader>e", "<cmd>CHADopen<cr>")
 -- vim.keymap.set({ "n", "v" }, "<leader>e", "<cmd>Oil<cr>")
