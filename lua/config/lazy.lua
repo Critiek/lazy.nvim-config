@@ -57,3 +57,4 @@ require("lazy").setup({
 -- vim.api.nvim_create_autocmd("VimEnter", { command = "CHADopen" })
 
 vim.api.nvim_set_hl(0, "@function.builtin", { link = "Function" })
+vim.api.nvim_set_hl(0, "@tag.attribute.html", { link = "@markup.italic" })
