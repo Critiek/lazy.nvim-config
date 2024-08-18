@@ -4,9 +4,9 @@ return {
         opts = {},
     },
 
-    { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
+    -- { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
 
-    { "rose-pine/neovim", name = "rose-pine" },
+    -- { "rose-pine/neovim", name = "rose-pine" },
 
     {
         "LazyVim/LazyVim",
