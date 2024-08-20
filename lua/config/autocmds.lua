@@ -4,3 +4,7 @@
 
 vim.api.nvim_set_hl(0, "@function.builtin", { link = "Function" })
 vim.api.nvim_set_hl(0, "@tag.attribute.html", { link = "@markup.italic" })
+
+if vim.g.neovide then
+    vim.o.guifont = "JetbrainsMono Nerd Font:h16"
+end
