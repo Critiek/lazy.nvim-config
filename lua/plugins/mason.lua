@@ -16,6 +16,7 @@ return {
                 "rust-analyzer",
                 "vtsls",
                 "yaml-language-server",
+                "jdtls",
             },
         },
     },
