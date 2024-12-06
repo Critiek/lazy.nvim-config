@@ -16,10 +16,5 @@ vim.keymap.set({ "n", "v", "s", "x", "o", "i", "l", "c", "t" }, "<C-S-v>", funct
     vim.api.nvim_paste(vim.fn.getreg("+"), false, -1)
 end, { noremap = true, silent = true })
 
-if vim.g.vscode then
-    vim.keymap.set({ "n", "v" }, "<C-u>", "20k", { noremap = true, silent = true })
-    vim.keymap.set({ "n", "v" }, "<C-d>", "20j", { noremap = true, silent = true })
-end
-
 -- vim.keymap.set({ "n", "v" }, "<leader>e", "<cmd>CHADopen<cr>")
 -- vim.keymap.set({ "n", "v" }, "<leader>e", "<cmd>Oil<cr>")
