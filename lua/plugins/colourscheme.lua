@@ -1,8 +1,8 @@
 return {
-    {
-        "catppuccin/nvim",
-        opts = {},
-    },
+    -- {
+    --     "catppuccin/nvim",
+    --     opts = {},
+    -- },
 
     -- { "ellisonleao/gruvbox.nvim", priority = 1000, config = true },
 
