@@ -20,3 +20,5 @@ vim.opt.softtabstop = 4 -- Number of spaces that a <Tab> counts for while editin
 -- vim.opt.smartindent = false -- Disables automatic indentation
 
 -- vim.opt.clipboard = ""
+
+vim.g.snacks_animate = false
